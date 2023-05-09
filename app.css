@@ -1,0 +1,54 @@
+/* General layout */
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Action buttons */
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  top: 10px;
+}
+
+.action {
+  color: yellow;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 200px;
+  font-weight: 300;
+  text-align: center;
+  justify-content: top;
+  text-transform: uppercase;
+  width: 400px;
+  height: 200px;
+  margin: 0px;
+  padding: 150px 0px;
+
+}
+
+.location {
+  color: lightgray;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  font-weight: 50;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100px;
+  height: 200px;
+  margin: auto;
+  padding: 0px 0 150px
+}
+
+/* color de boton */
+.action:hover {
+  /* background-color: green; */
+  color: red;
+}
